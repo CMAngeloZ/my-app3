@@ -28,32 +28,31 @@ const Tab = createMaterialBottomTabNavigator();
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 //calling screen
-import HomeScreen from './screen/HomeScreen';
+import HomeScreen from '../screen/HomeScreen';
 
-import CatListScreen from './screen/category/CatListScreen';
-import CatInsertScreen from './screen/category/CatInsertScreen';
-import CatUpdateScreen from './screen/category/CatUpdateScreen';
+import CatListScreen from '../screen/category/CatListScreen';
+import CatInsertScreen from '../screen/category/CatInsertScreen';
+import CatUpdateScreen from '../screen/category/CatUpdateScreen';
 
 // import CountListScreen from './screen/country/CountListScreen';
 // import CountInsertScreen from './screen/country/CountInsertScreen';
 // import CountUpdateScreen from './screen/country/CountUpdateScreen';
 
-import BookListScreen from './screen/book/BookListScreen';
-import BookInsertScreen from './screen/book/BookInsertScreen';
-import BookUpdateScreen from './screen/book/BookUpdateScreen';
+import BookListScreen from '../screen/book/BookListScreen';
+import BookInsertScreen from '../screen/book/BookInsertScreen';
+import BookUpdateScreen from '../screen/book/BookUpdateScreen';
 
 // import CityListScreen from './screen/city/CityListScreen';
 // import CityInsertScreen from './screen/city/CityInsertScreen';
 // import CityUpdateScreen from './screen/city/CityUpdateScreen';
 
-import ReportListScreen from './screen/report/ReportListScreen';
-import ReportTableScreen from './screen/report/ReportTableScreen';
-import ReportChartScreen from './screen/report/ReportChartScreen';
-import APIScreen from './screen/report/APIScreen';
+import ReportListScreen from '../screen/report/ReportListScreen';
+import ReportTableScreen from '../screen/report/ReportTableScreen';
+import ReportChartScreen from '../screen/report/ReportChartScreen';
 
-import CzTableScreen from './screen/report/CzTableScreen';
-import CzChartScreen from './screen/report/CzChartScreen';
-import CzReportChartScreen from './screen/report/CzReportChartScreen';
+import CzTableScreen from '../screen/report/CzTableScreen';
+import CzChartScreen from '../screen/report/CzChartScreen';
+import CzReportChartScreen from '../screen/report/CzReportChartScreen';
 
 export default function App() {
   return (
@@ -80,7 +79,6 @@ export default function App() {
             <Stack.Screen name="ReportListScreen" component={ReportListScreen} />
             <Stack.Screen name="ReportTableScreen" component={ReportTableScreen} />
             <Stack.Screen name="ReportChartScreen" component={ReportChartScreen} />
-            <Stack.Screen name="APIScreen" component={APIScreen} />
 
             <Stack.Screen name="CzTableScreen" component={CzTableScreen} />
             <Stack.Screen name="CzChartScreen" component={CzChartScreen} />

@@ -16,17 +16,24 @@ export default function ReportListScreen({ navigation }) {
                 style={{margin:5}}
             />
             <List.Item
-                title="Report Chart"
+                title="City Report Chart"
                 left={() => <List.Icon icon="chart-pie" style={{marginLeft:10}} />}
                 right={() => <List.Icon icon="arrow-right" />}
                 onPress={() => navigation.navigate('ReportChartScreen')}
                 style={{margin:5}}
             />
             <List.Item
-                title="API"
-                left={() => <List.Icon icon="api" style={{marginLeft:10}} />}
+                title="Citizen Report Chart"
+                left={() => <List.Icon icon="chart-pie" style={{marginLeft:10}} />}
                 right={() => <List.Icon icon="arrow-right" />}
-                onPress={() => navigation.navigate('APIScreen')}
+                onPress={() => navigation.navigate('CzReportChartScreen')}
+                style={{margin:5}}
+            />
+            <List.Item
+                title="Citizen Table"
+                left={() => <List.Icon icon="table" style={{marginLeft:10}} />}
+                right={() => <List.Icon icon="arrow-right" />}
+                onPress={() => navigation.navigate('CzTableScreen')}
                 style={{margin:5}}
             />
         </>

@@ -31,7 +31,8 @@
     "react-native-tab-view": "^3.5.1",
     "react-native-url-polyfill": "^1.3.0",
     "react-native-web": "~0.18.10",
-    "victory-native": "^36.6.10"
+    "victory-native": "^36.6.10",
+    "expo-linking": "~4.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
