@@ -154,7 +154,7 @@ function HomeTab() {
         name="ReportTab" 
         component={ReportListScreen}
         options={{
-          tabBarLabel: 'Report',
+          tabBarLabel: 'Repooort',
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons name="file" color={color} size={26} />
           ),
